@@ -1,0 +1,11 @@
+.catalog:
+  version: 1
+  questions:
+    - variable: PRIVATE_KEY
+      description: Specify the private key to access to your private repo.
+      label: Private Key
+      required: true
+      type: multiline
+proxy:
+  scale: 1
+  retain_ip: true
